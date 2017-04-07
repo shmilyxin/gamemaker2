@@ -1,0 +1,78 @@
+Converting GML script : ${project_dir}\scripts\scr_moveView\scr_moveView.gml
+Converted builtin : line 14 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 17 : view_xview[0] = xView+mapWidth -> __view_set( e__VW.XView, 0, xView+mapWidth )
+Converted builtin : line 24 : view_xview[0] = xView-mapWidth -> __view_set( e__VW.XView, 0, xView-mapWidth )
+Converted builtin : line 32 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 35 : view_yview[0] = yView+mapWidth -> __view_set( e__VW.YView, 0, yView+mapWidth )
+Converted builtin : line 42 : view_yview[0] = yView-mapWidth -> __view_set( e__VW.YView, 0, yView-mapWidth )
+
+Converting GML script : ${project_dir}\scripts\scr_initLevel\scr_initLevel.gml
+Converted builtin : line 9 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 10 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 11 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 12 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 13 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 5 : view_xview[0]=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin : line 9 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 10 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 11 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 12 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 13 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 6 : view_yview[0]=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script : ${project_dir}\scripts\scr_createLevelMap\scr_createLevelMap.gml
+Converted string : line 4 : ';' -> ";"
+Converted string : line 4 : ',' -> ","
+
+Converting GML script : ${project_dir}\scripts\scr_biankuangChangeMode\scr_biankuangChangeMode.gml
+Converted string : line 2 : 'select' -> "select"
+
+Converting GML script : ${project_dir}\scripts\scr_changeBtnImage\scr_changeBtnImage.gml
+Converted string : line 2 : 'biankuang' -> "biankuang"
+
+Converting GML script : ${project_dir}\scripts\scr_getRoute\scr_getRoute.gml
+Converted string : line 30 : 'routeList' -> "routeList"
+Converted string : line 31 : 'totalCost' -> "totalCost"
+Converted string : line 36 : 'totalCost' -> "totalCost"
+Converted string : line 39 : 'routeList' -> "routeList"
+
+Converting GML script : ${project_dir}\scripts\scr_getMinCostMap\scr_getMinCostMap.gml
+Converted string : line 9 : 'totalCost' -> "totalCost"
+Converted string : line 9 : 'totalCost' -> "totalCost"
+
+Converting GML script : ${project_dir}\scripts\scr_insertAroundBlock\scr_insertAroundBlock.gml
+Converted string : line 7 : 'routeList' -> "routeList"
+Converted string : line 10 : 'totalCost' -> "totalCost"
+
+Converting GML script : ${project_dir}\scripts\scr_insertNextBlock\scr_insertNextBlock.gml
+Converted string : line 12 : 'routeList' -> "routeList"
+Converted string : line 13 : 'totalCost' -> "totalCost"
+
+Converting GML script : ${project_dir}\scripts\scr_initUnitBtn\scr_initUnitBtn.gml
+Converted string : line 1 : 'biankuang' -> "biankuang"
+
+Converting GML script : ${project_dir}\objects\biankuang_obj\KeyPress_1.gml
+Converted string : line 1 : 'K' -> "K"
+Converted string : line 7 : 'select' -> "select"
+Converted string : line 12 : 'J' -> "J"
+Converted string : line 15 : 'select' -> "select"
+Converted string : line 18 : 'unitMap' -> "unitMap"
+Converted string : line 33 : 'D' -> "D"
+Converted string : line 39 : 'A' -> "A"
+
+Converting GML script : ${project_dir}\objects\select_obj\Step_0.gml
+Converted string : line 1 : 'D' -> "D"
+Converted string : line 7 : 'A' -> "A"
+Converted string : line 13 : 'W' -> "W"
+Converted string : line 19 : 'S' -> "S"
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit.
+game speed set to 30
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script view/__view_get.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml
